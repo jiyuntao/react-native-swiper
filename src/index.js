@@ -258,6 +258,7 @@ export default class extends Component {
 
     this.internals = {
       ...this.internals,
+      offset: initState.offset,
       isScrolling: false
     };
     return initState
